@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "codexclient",
+  "version": "${version}",
+  "name": "Codex Client",
+  "description": "A lightweight, touchscreen-friendly client-side utility mod.",
+  "authors": ["Codex"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.codex.client.CodexClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
